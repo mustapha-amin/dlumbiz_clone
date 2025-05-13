@@ -116,7 +116,7 @@ class _ContentState extends State<Content> {
           title,
           style: TextStyle(
             fontSize: 10,
-            fontWeight: FontWeight.bold,
+            fontWeight: FontWeight.normal,
             color: color,
           ),
         ),
