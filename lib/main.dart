@@ -78,6 +78,7 @@ class _DashboardState extends State<Dashboard> {
             ],
           ),
         ),
+        actionsPadding: EdgeInsets.only(right: 5),
         actions: [
           Row(
             spacing: 15,
