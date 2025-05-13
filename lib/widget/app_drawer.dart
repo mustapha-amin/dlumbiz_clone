@@ -95,7 +95,7 @@ class _AppDrawerState extends State<AppDrawer> {
           children: [
             CustomTile(title: 'Home', iconData: Iconsax.home_copy, index: 0),
             CustomTile(title: 'Banking', iconData: Iconsax.bank_copy, index: 1),
-            CustomTile(title: 'Banking', iconData: Iconsax.bank_copy, index: 2),
+            CustomTile(title: 'Items', iconData: Iconsax.box, index: 2),
             const SizedBox(height: 5),
             CustomTile(
               title: 'Sales',
