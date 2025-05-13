@@ -61,7 +61,7 @@ class _ContentState extends State<Content> {
             ),
           ),
           Row(
-            spacing: 4,
+            spacing: 20,
             children: [
               Expanded(
                 child: DashboardStat(
