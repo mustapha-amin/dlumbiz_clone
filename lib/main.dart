@@ -48,7 +48,7 @@ class _DashboardState extends State<Dashboard> {
       appBar: AppBar(
         toolbarHeight: 40,
         leading:
-            MediaQuery.of(context).size.width < 600
+            MediaQuery.of(context).size.width < 700
                 ? Builder(
                   builder:
                       (context) => InkWell(

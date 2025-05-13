@@ -11,20 +11,12 @@ class Content extends StatefulWidget {
 }
 
 class _ContentState extends State<Content> {
-  final ScrollController _scrollController = ScrollController();
-
-  @override
-  void initState() {
-    super.initState();
-    FocusManager.instance.primaryFocus?.requestFocus();
-  }
 
   @override
   Widget build(BuildContext context) {
     return Padding(
       padding: const EdgeInsets.all(20.0),
       child: ListView(
-        controller: _scrollController,
         children: [
           Row(
             children: [
